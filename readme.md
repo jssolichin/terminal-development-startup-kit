@@ -76,11 +76,12 @@ Please follow the direction [here](https://powerline.readthedocs.org/en/master/i
 
 Once done, at the bottom of the .vimrc, you can change 
 
-    ```
     let g:airline_powerline_fonts = 0
-    ```
-to a value of 1,
 
+to a value of 1.
+
+Etc.
+----
 Protip: Edit your .vimrc using ViM. In ViM, run:
 
     :e $MYVIMRC
