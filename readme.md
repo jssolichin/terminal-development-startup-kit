@@ -68,7 +68,18 @@ Please follow the direction on each colorscheme's repo
 * [Solarized](https://github.com/altercation/vim-colors-solarized)
 * [Seoul256](https://github.com/junegunn/seoul256.vim)
 
-At the bottom of the .vimrc, you can comment out the color schemes you do not want with a quotation mark. 
+Once done, at the bottom of the .vimrc, you can comment out the color schemes you do not want with a quotation mark. 
+
+Nice Airline Triangles
+----------------------
+Please follow the direction [here](https://powerline.readthedocs.org/en/master/installation.html#patched-fonts) for how to install the neccesary fonts to enable nicer looking ViM display.
+
+Once done, at the bottom of the .vimrc, you can change 
+
+    ```
+    let g:airline_powerline_fonts = 0
+    ```
+to a value of 1,
 
 Protip: Edit your .vimrc using ViM. In ViM, run:
 

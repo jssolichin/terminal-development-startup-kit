@@ -100,9 +100,10 @@ filetype plugin on
 au FileType javascript call JavaScriptFold()
 "let g:syntastic_javascript_checkers = ['jslint']
 
-"Color scheme
-colorscheme seoul256
-colorscheme solarized
-set background=light
+"Color scheme --  all disabled. You must first follow the direction of each color scheme. Once you have moved the appropriate file, you may uncomment these
+"colorscheme seoul256
+"colorscheme solarized
+"set background=light
 
+"If you have changed your font to includ special powerline characters, you may change 0 to 1
 let g:airline_powerline_fonts = 0
