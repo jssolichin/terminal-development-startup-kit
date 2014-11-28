@@ -1,4 +1,4 @@
-Terminal Development Start-up Kit
+Terminal Development Startup Kit
 =================================
 
 This repo contains what I find useful in developing from a Terminal. I hope you find it useful too. This repo contains three things:
@@ -41,13 +41,13 @@ Installation
 1. Clone this repository
 
     ```
-    $ git clone https://github.com/jssolichin/home.git
+    $ git clone https://github.com/jssolichin/terminal-development-startup-kit.git
     ```
 
-2. Place .vimrc, .tmux.conf, and .bash_profile into home directory
+2. Place .vimrc, .tmux.conf, and .bash_profile into your home (~/) directory
  
     ```
-    $ cd home
+    $ cd terminal-development-startup-kit
     $ mv .vimrc ~/
     $ mv .tmux.conf ~/
     $ mv .bash_profile ~/
