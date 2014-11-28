@@ -37,21 +37,22 @@ Usage
 1. Clone this repository
 
     $ git clone https://github.com/jssolichin/home.git
+    
 2. Place .vimrc and .tmux.conf into home directory
  
-	$ cd home
-	$ mv .vimrc ~/
-	$ mv tmux.conf ~/
+    $ cd home
+    $ mv .vimrc ~/
+    $ mv tmux.conf ~/
 
 3. Install Vundle
 
-	$ cd ~/.vim/bundle
-	$ git clone git://github.com/altercation/vim-colors-solarized.git
+    $ cd ~/.vim/bundle
+    $ git clone git://github.com/altercation/vim-colors-solarized.git
 
 4. Open ViM
 5. Install Plugins
 
-	:PluginInstall
+    :PluginInstall
 
 Setting Colorschemes
 --------------------
