@@ -7,33 +7,34 @@ This repo contains what I find useful in developing from a Terminal. I hope you 
 2. .tmux.conf for TMux, a terminal application that allows you to run more terminals inside a terminal.
 3. .bash-profile, a shortcut for running frequently used commands in terminal.
 
+Presently this repo also adds specific language helper for **JavaScript, Jade, and Less**, since those are the languages that I am using presently. Super useful languages for speeding up web development. 
+
 Features
 --------
 
 * Easily navigate different TMux and Vim panes from [ThoughtBot](http://robots.thoughtbot.com/seamlessly-navigate-vim-and-tmux-splits).
 * Mouse support
-* Vundle
 * Tools
- * vim-addon-mw-utils
- * vim-snipmate
- * tlib_vim
+ * MarcWeber/vim-addon-mw-utils
+ * christoomey/vim-tmux-navigator
+ * tomtom/tlib_vim
 * Code Helpers
- * vim-autoformat
- * vim-snipmate
- * delimitMate
- * supertab
+ * garbas/vim-snipmate
+ * Chiel92/vim-autoformat
+ * Raimondi/delimitMate
+ * ervandew/supertab
 * ViM Display
- * Airline
+ * bling/vim-airline
 * File navigation
- * ctrlp
- * nerdtree
+ * kien/ctrlp.vim
+ * scrooloose/nerdtree
 * languages
- * vim-jade
- * vim-javascript-syntax
- * vim-less
+ * digitaltoad/vim-jade
+ * jelera/vim-javascript-syntax
+ * groenewege/vim-less
 * Colorschemes
- * vim-colors-solarized
- * seoul256
+ * altercation/vim-colors-solarized
+ * junegunn/seoul256.vim
 
 Installation
 -----
@@ -69,8 +70,9 @@ Installation
 Setting Colorschemes
 --------------------
 Please follow the direction on each colorscheme's repo
-* [Solarized](https://github.com/altercation/vim-colors-solarized)
-* [Seoul256](https://github.com/junegunn/seoul256.vim)
+
+ * altercation/vim-colors-solarized
+ * junegunn/seoul256.vim
 
 Once done, at the bottom of the .vimrc, you can comment out the color schemes you do not want with a quotation mark. 
 
@@ -87,17 +89,23 @@ to a value of 1.
 Usage
 -----
 ###.vimrc
-There's too many things to list out on what the list of installed packages will do, so I recommend you check out each package installed from the list of features above and see what they can do. Most should work magically, but here are some functions that you may find to be a great starting point. 
+There are too many things to list out on what the list of installed packages will do, so I recommend you check out each package installed from the list of features above and see what they can do. Most should work magically, but here are some functions that you may find to be a great starting point. 
 
 As always, you can press `tab` to autocomplete. Press `:` to type in commands to ViM
 
 Autoformat a file
+
     :AutoFormat 
+
 Fuzzy search a file `ctrl+p` Then open the file in a new tab by pressing `t`
+
 Open a tree list of the folder
+    
     :NerdTREE
+
 Changing between panes (h,j,k,l being directions that one uses in ViM)
-    `ctrl+[h,j,k,l]`
+    
+    ctrl+[h,j,k,l]
 
 ###.tmux.conf
 The above key combo should also switch between panes. Thus those buttons can allow you to switch between ViM and Tmux panes seamlessly.
