@@ -36,18 +36,24 @@ Usage
 -----
 1. Clone this repository
 
-    `$ git clone https://github.com/jssolichin/home.git
+    ```
+    $ git clone https://github.com/jssolichin/home.git
+    ```
 
 2. Place .vimrc and .tmux.conf into home directory
  
-    `$ cd home
-    `$ mv .vimrc ~/
-    `$ mv tmux.conf ~/
+    ```
+    $ cd home
+    $ mv .vimrc ~/
+    $ mv tmux.conf ~/
+    ```
 
 3. Install Vundle
 
-    `$ cd ~/.vim/bundle
-    `$ git clone https://github.com/gmarik/Vundle.vim
+    ```
+    $ cd ~/.vim/bundle
+    $ git clone https://github.com/gmarik/Vundle.vim
+    ```
 
 4. Open ViM
 5. Install Plugins
@@ -66,4 +72,4 @@ At the bottom of the .vimrc, you can comment out the color schemes you do not wa
 
 Protip: Edit your .vimrc using ViM. In ViM, run:
 
-    `:e $MYVIMRC
+    :e $MYVIMRC
