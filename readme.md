@@ -9,10 +9,11 @@ This repo contains what I find useful in developing from a Terminal. I hope you 
 
 Presently this repo also adds specific language helper for **JavaScript, Jade, and Less**, since those are the languages that I am using presently. Super useful languages for speeding up web development. 
 
-Features
---------
+Things Included
+---------------
 
-* Easily navigate different TMux and Vim panes from [ThoughtBot](http://robots.thoughtbot.com/seamlessly-navigate-vim-and-tmux-splits).
+* Easily navigate different TMux and Vim panes from [ThoughtBot](http://robots.thoughtbot.com/seamlessly-navigate-vim-and-tmux-splits)
+* 256 color support on tmux
 * Mouse support
 * Tools
  * MarcWeber/vim-addon-mw-utils
@@ -66,6 +67,11 @@ Installation
 	```vim
     :PluginInstall
     ```
+6. Reload .bash_profile
+    
+    ```
+    $ source ~/.bash_profile
+    ```
 
 Setting Colorschemes
 --------------------
@@ -101,7 +107,7 @@ Fuzzy search a file `ctrl+p` Then open the file in a new tab by pressing `t`
 
 Open a tree list of the folder
     
-    :NerdTREE
+    :NERDTree
 
 Changing between panes (h,j,k,l being directions that one uses in ViM)
     
