@@ -131,3 +131,4 @@ Edit your .vimrc using ViM. In ViM, run:
     :e $MYVIMRC
 
 You can press `ctrl+r` in terminal and start typing to auto- complete based on recently ran commands.
+You can press `ctrl+c` inside a program (e.g. ViM) to minimize. Type in `fg` in the console afterward to maximize it again.
