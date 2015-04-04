@@ -16,26 +16,26 @@ Things Included
 * 256 color support on tmux
 * Mouse support
 * Tools
- * MarcWeber/vim-addon-mw-utils
- * christoomey/vim-tmux-navigator
- * tomtom/tlib_vim
+ * [MarcWeber/vim-addon-mw-utils](MarcWeber/vim-addon-mw-utils)
+ * [christoomey/vim-tmux-navigator](christoomey/vim-tmux-navigator)
+ * [tomtom/tlib_vim](tomtom/tlib_vim)
 * Code Helpers
- * garbas/vim-snipmate
- * Chiel92/vim-autoformat
- * Raimondi/delimitMate
- * ervandew/supertab
+ * [garbas/vim-snipmate](garbas/vim-snipmate)
+ * [Chiel92/vim-autoformat](Chiel92/vim-autoformat)
+ * [Raimondi/delimitMate](Raimondi/delimitMate)
+ * [ervandew/supertab](ervandew/supertab)
 * ViM Display
- * bling/vim-airline
+ * [bling/vim-airline](bling/vim-airline)
 * File navigation
- * kien/ctrlp.vim
- * scrooloose/nerdtree
+ * [kien/ctrlp.vim](kien/ctrlp.vim)
+ * [scrooloose/nerdtree](scrooloose/nerdtree)
 * languages
- * digitaltoad/vim-jade
- * jelera/vim-javascript-syntax
- * groenewege/vim-less
+ * [digitaltoad/vim-jade](digitaltoad/vim-jade)
+ * [jelera/vim-javascript-syntax](jelera/vim-javascript-syntax)
+ * [groenewege/vim-less](groenewege/vim-less)
 * Colorschemes
- * altercation/vim-colors-solarized
- * junegunn/seoul256.vim
+ * [altercation/vim-colors-solarized](altercation/vim-colors-solarized)
+ * [junegunn/seoul256.vim](junegunn/seoul256.vim)
 
 Installation
 -----
@@ -73,12 +73,22 @@ Installation
     $ source ~/.bash_profile
     ```
 
+Setting up JavaScript Autoformatters
+------------------------------------
+Autoformat depends on other programs to format files correctly. For javascript:
+
+    ```    
+    npm install -g js-beautify
+    ```
+
+See other formatters available at vim-autoformat’s [repo](Chiel92/vim-autoformat).
+
 Setting Colorschemes
 --------------------
 Please follow the direction on each colorscheme's repo
 
- * altercation/vim-colors-solarized
- * junegunn/seoul256.vim
+ * [altercation/vim-colors-solarized](altercation/vim-colors-solarized)
+ * [junegunn/seoul256.vim](junegunn/seoul256.vim)
 
 Once done, at the bottom of the .vimrc, you can comment out the color schemes you do not want with a quotation mark. 
 
